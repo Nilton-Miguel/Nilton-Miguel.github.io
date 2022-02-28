@@ -1,0 +1,49 @@
+@charset "UTF_8";
+:root{
+    --cor1: #181616;
+    --cor2: #3C6E71;
+    --cor3: #D9D9D9;
+    --cor4: #081b27;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+div.div_ancora{
+    background-color: var(--cor2);
+    border-radius: 5px;
+    height: 100px;
+    margin: 10px auto;
+    transition-duration: 0.6s;
+    width: 100%;
+}
+div.div_ancora:hover{
+    background-color: var(--cor4);
+}
+div#div_para_espacamento_lateral{
+    background-color: var(--cor1);
+    height: 1000px;
+    padding: 15px 10px;
+}
+header{
+    background-color: var(--cor2);
+    color: whitesmoke;
+}
+header h1{
+    padding: 15px 10px;
+    text-align: center;
+}
+header p{
+    margin: 0px auto;
+    max-width: 450px;
+    padding: 15px 10px;
+    text-align: center;
+}
+main{
+    background-color: var(--cor3);
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: auto;
+    min-width: 200px;
+    padding: 1px 10px;
+}
